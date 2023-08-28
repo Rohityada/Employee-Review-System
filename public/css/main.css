@@ -1,0 +1,93 @@
+body{
+    background-color:beige;
+    background-image: url("/video/bg1.png");
+    background-size: cover;
+    background-position: top;
+}
+
+
+video.signv {
+    margin-top: 16px;
+    width: 98%;
+    height: auto;
+    max-width: 551px;
+    min-width: 81px;
+    border-radius: 16px;
+}
+
+.coloumn{
+    display: flex;
+}
+.col1 {
+    width: 355px;
+    margin-right: 23px;
+}
+
+.mb1{
+    margin-bottom: 18px;
+}
+
+.mb2{
+    margin-top: 15%;
+}
+
+.formwidth{
+    flex: 0 0 auto;
+    width: 50%;
+    backdrop-filter: blur(120px);
+}
+
+.button{
+    background-color: #029fe5;
+}
+.button:hover{
+    background-color: #00498d;
+}
+
+
+.collg7 {
+    flex: 0 0 auto;
+    width: 49%;
+}
+
+.col-lg-5 {
+    flex: 0 0 auto;
+    width: 49%;
+}
+.rounded2 {
+    border-radius: var(--bs-border-radius)!important;
+    background-color: #f9faff00;
+    backdrop-filter: blur(42px);
+}
+
+
+@media only screen and (max-width: 900px) {
+    .formwidth {
+      width: 100%;
+    }
+    /* video.signv{
+        display: none;
+    } */
+    .body{
+        background-position: center;
+    }
+  }
+
+  
+@media only screen and (max-width: 400px) {
+    video.signv{
+        display: none;
+    }
+  }
+
+
+  @media (max-width: 992px){
+  .collg7 {
+      flex: 0 0 auto;
+      width: 100%;
+  }
+  .col-lg-5{
+        flex: 0 0 auto;
+        width: 100%;
+  }
+}

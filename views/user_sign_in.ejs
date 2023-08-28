@@ -1,0 +1,52 @@
+<link rel="stylesheet" href="/css/main.css">
+<div class="d-flex justify-content-center p-4 p-md-0">
+  <form
+    class="rounded p-3 col-12 formwidth my-4 shadow-lg"
+    method="POST"
+    action="/create-session"
+  >  <div class="coloumn"> 
+    <div class="col1">
+      <h3 class="mb-4 text-center">Sign in</h3>
+      <!-- Email input -->
+      <div class="form-outline mb1">
+        <label class="form-label" for="email">Email address</label>
+        <input type="email" id="email" name="email" class="form-control" />
+      </div>
+
+      <!-- Password input -->
+      <div class="form-outline mb1">
+        <label class="form-label" for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          class="form-control"
+        />
+      </div>
+
+      <div>
+        <!-- Login button -->
+        <button
+          type="submit"
+          class="btn btn-primary btn-block fw-semibold button"
+          style="width: 100%"
+        >
+          LOGIN
+        </button>
+        <!-- Link to redirect to signup page -->
+    <div class="text-center mb2 ">
+      <p>Not an user? <a href="/sign-up">Register</a></p>
+    </div>
+      </div>
+    </div>
+    <div>
+      <video class="signv" width="320" height="240" autoplay muted loop>
+        <source src="/video/sign in.mp4" type="video/mp4">
+        <source src="/video/sign in.ogg" type="video/ogg">
+      </video>
+    </div>
+  </div>
+    
+  </form>
+  
+</div>
